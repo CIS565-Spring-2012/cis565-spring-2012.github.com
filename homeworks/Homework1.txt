@@ -1,0 +1,49 @@
+CIS 565: Homework 1: CPU and GPU Architecture
+Spring 2012
+
+Due Monday, 01/30
+
+Please be concise; a few sentences is sufficient for each answer.
+-------------------------------------------------------------------------------
+
+1.  Why are GFLOPS an imperfect performance measurement? (5%)
+
+
+2.  On a typical CPU, what component uses the greatest percentage of 
+    transistors? (5%)
+
+
+3.  What is the motivation for pipelining a CPU? (5%)
+
+
+4.  What is the motivation for branch prediction in a CPU? (5%)
+
+
+5.  True or false: A typical CPU can retire more than one instruction per 
+    cycle.  Why or why not? (5%)
+
+
+6.  A superscalar CPU and a GPU both duplicate components to exploit
+    parallelism.  Compare the type of parallelism in the two designs. (10%)
+
+
+7.  What is the primary way CPUs hide main memory access latency? What is
+    the primary way for GPUs? (10%)
+   
+
+8.  Why do GPUs lack the large caches found on-chip in CPUs? (10%)
+
+
+9.  What is a divergent branch?  How does the GPU handle it? (15%)
+
+
+10. Explain how a shader/kernel's working set, e.g., number of registers, 
+    affects the GPUs ability to hide memory latencies. (20%)
+
+
+11. Based on lectures from 01/18 and 01/23, provide five questions (and answers) 
+    you would ask on this homework if you were teaching this course.  Use any 
+    combination of question types, e.g., true/false, multiple choice, short answer, 
+    essary, coding, etc.  Your questions can overlap with questions on this homework
+    within reason. (10%)
+
